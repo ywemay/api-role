@@ -1,0 +1,23 @@
+{
+  "name": "ywemay-api-role",
+  "version": "0.0.0",
+  "description": "Roles and role operation functions definitions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ywemay/api-role.git"
+  },
+  "keywords": [
+    "api",
+    "role"
+  ],
+  "author": "Cibuc Dorian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ywemay/api-role/issues"
+  },
+  "homepage": "https://github.com/ywemay/api-role#readme"
+}
