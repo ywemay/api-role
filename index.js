@@ -8,7 +8,7 @@ exports.CUSTOMER = 'customer';
 exports.SUPPLIER = 'supplier';
 exports.BASIC = 'basic';
 
-exports.hasRole = (item, role) => {
+const hasRole = (item, role) => {
   let { roles } = item;
   if (roles === undefined) return false;
   if (Array.isArray(role)) {
@@ -21,3 +21,5 @@ exports.hasRole = (item, role) => {
   if (typeof roles[0] === 'object') roles = roles.map(v => v.id);
   return ( roles && roles.includes(role) );
 }
+
+exports.hasRole = hasRole;
